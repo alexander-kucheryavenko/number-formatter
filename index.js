@@ -14,14 +14,13 @@ module.exports.formatter = (number, locale) => {
 };
 
 /**
- * Update configs
- * @param key
- * @param secret
- * @returns {*}
+ *
+ * @param conf
+ * @returns {{key: (*|string|string), secret: (*|string)}|*}
  */
 
-module.exports.update = ({key, secret}) => {
-  configs = {key, secret};
+module.exports.update = (conf) => {
+  configs = {key: conf.key, secret: conf.secret};
   return configs;
 };
 
