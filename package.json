@@ -1,0 +1,26 @@
+{
+  "name": "nf-simple",
+  "version": "0.0.1",
+  "description": "Simple npm module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-kucheryavenko/number-formatter.git"
+  },
+  "author": "Alexander Kucheryavenko <zetsu85@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexander-kucheryavenko/number-formatter/issues"
+  },
+  "homepage": "https://github.com/alexander-kucheryavenko/number-formatter#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
